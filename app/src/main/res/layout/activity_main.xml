@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/bg">
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Manager App"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginTop="12dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enter your name to begin: "
+            android:textColor="#000000"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Log in"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
